@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.new-token-generate-parent .countdown {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #ddd;
+    width: max-content;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.add-token-generate {
+    border: 2px solid #ddd;
+    padding: 13px 10px;
+    border-radius: 5px;
+    width: 200px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.add-token-generate .add-token-generate-number,
+.add-token-generate .add-token-generate-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.countdown_token_parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+    .countdown_token_parent {
+        flex-direction: column;
+    }
+
+    .new-token-generate-parent .countdown,
+    .add-token-generate {
+        margin: 0;
+    }
+
+    .add-token-generate {
+        margin-top: 15px;
+    }
+
+}
+
+.new-token-generate-parent .countdown div {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.new-token-generate-parent .countdown .title {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.new-token-generate-parent .countdown .value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.new-token-generate-parent {
+    width: 1000px;
+    max-width: calc(100% - 20px);
+    margin: 50px auto;
+}
+
+.inpage-promo-box {
+    background: rgba(255, 233, 39, 0.69);
+    width: 600px;
+    max-width: calc(100% - 20px);
+    padding: 15px;
+    border-radius: 3px;
+    border: 2px groove rgb(255, 245, 106);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.inpage-promo-box span {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/*========== hCaptcha design ===========*/
+
+.hCaptcha-parent {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.play_without_captcha_button {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    background: #95efa0;
+    border: 1px solid #17aa07;
+    padding: 10px 15px !important;
+    color: #000;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 3px;
+    box-shadow: 0 0 2px #747474;
+    text-transform: uppercase;
+    display: block;
+}
+
+.play_without_captcha_button i {
+    padding: 5px;
+    display: inline-block;
+    border: 3px solid #222;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#free_play_digits span {
+    font-size: 60px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #ff0;
+    background: linear-gradient(to bottom, #45484d 0%, #000000 100%);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: -5px;
+    text-shadow: 2px 2px #170101;
+    display: inline-block;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+#free_play_digits {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.free_play_form_button {
+    padding: 14px;
+    color: #fff;
+    cursor: pointer;
+    width: 120px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 15px auto;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #3399ff 5%, #004d99 100%);
+    background-color: #004d99;
+    border: 1px solid #06c;
+    box-shadow: inset 0 1px 0 0 #cce6ff;
+    text-shadow: 0 0 2px #011c22;
+    display: block;
+}
+
+#free_play_error {
+    padding: 15px;
+    color: #000 !important;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 3px;
+    background-color: rgba(255, 38, 38, .72);
+    box-shadow: 0 0 10px gray;
+    margin-top: 15px;
+}
